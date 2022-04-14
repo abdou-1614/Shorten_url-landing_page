@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Public+Sans:wght@300;400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+img {
+    max-width: 100%;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', 'sans serif';
+}
+
+.max-width {
+    @apply px-5 lg:max-w-5xl lg:mx-auto xl:max-w-5xl 2xl:px-0
+}
+
+p {
+    line-height: 1.6;
+}
+
+.boost {
+    background-color: hsl(257, 27%, 26%);
+    height: 17.188rem;
+}
+.boost img {
+    height: 17.188rem;
+    @apply w-full
+}
+.boost div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn-cta {
+    background-color: hsl(180, 66%, 49%);
+    @apply text-white py-2 px-4 md:py-2 md:px-8 hover:opacity-75 transition-all duration-150 cursor-pointer
+}
+
+@media screen and (min-width: 1028px) {
+    .card article:nth-child(3) {
+        transform: translateY(2rem);
+    }
+    .card article:last-child {
+        transform: translateY(4rem);
+    }
+    .line {
+        @apply bg-cyan-500 w-[60%] h-2 absolute;
+        top: 77%;
+    }
+}
