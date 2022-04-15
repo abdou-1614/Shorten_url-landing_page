@@ -7,10 +7,9 @@ const Advanced = () => {
     <>
     <div className='bg-slate-100 py-10 lg:py-20 lg:pb-40 lg:pt-20'>
         <div className='max-width'>
-            <h2 className='text-center font-semibold text-lg md:text-3xl text-slate-800'>Advanced Statistics</h2>
-            <p className='text-center text-sm leading-6 text-slate-400 mt-3'>Track how your links are performing across the web with <br/> our 
-            advanced statistics dashboard.</p>
-            <div className=' card grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 pt-20 px-7 md:px-0'>
+            <h2 className='text-center font-bold text-xl md:text-3xl text-slate-800'>Advanced Statistics</h2>
+            <p className='text-center text-sm leading-6 text-slate-400 mt-3'>Track how your links are performing across the web with our <br/>advanced statistics dashboard.</p>
+            <div className='relative card grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 pt-20 px-10 md:px-0'>
                 <div className='line'></div>
                 <article className='bg-white p-4 rounded shadow-sm relative mb-7 lg:mb-0'>
                     <img className='-mt-12 p-3 bg-slate-700 rounded-full' src={brand} alt=''/>

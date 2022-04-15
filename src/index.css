@@ -10,7 +10,9 @@ img {
 ul li {
     list-style-type: none;
 }
-
+h1{
+    line-height: 1.2 !important;
+}
 body {
     margin: 0;
     font-family: 'Poppins', 'sans serif';
@@ -52,7 +54,7 @@ p {
         transform: translateY(4rem);
     }
     .line {
-        @apply bg-cyan-500 w-[60%] h-2 absolute;
-        top: 77%;
+        @apply bg-cyan-500 w-[70%] h-2 absolute;
+        top: 55%;
     }
 }
