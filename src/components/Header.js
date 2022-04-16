@@ -39,6 +39,17 @@ const Header = () => {
               </ul>
               </div>
             )}
+            <div className='hidden md:block'>
+            <ul className='md:flex md:items-center md:ml-5' >
+              <div className='border-b mt-5 md:mt-0 border-gray-500 mx-5 md:mx-0 md:hidden'/>
+              <li className='my-6 md:my-0 md:mr-7 text-slate-400 '>
+                <button>Login</button>
+                </li>
+              <li>
+                <button className=' btn-cta rounded-full mb-8 md:mb-0 w-[80%] md:w-[100%] md:px-4'>Sign Up</button>
+                </li>
+              </ul>
+            </div>
             <button className='md:hidden' onClick={() => setIsOpen(!isOpen) } >{isOpen ? <VscChromeClose className='text-slate-400 text-2xl md:text-0'/> : <GiHamburgerMenu className='text-slate-400 text-2xl' />}</button>
         </div>
     </header>

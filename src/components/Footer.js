@@ -7,8 +7,8 @@ import twitter from '../images/icon-twitter.svg'
 const Footer = () => {
   return (
     <>
-    <footer className='bg-slate-900 py-10 lg:py-20 px-20 md:px-0'>
-        <div className='max-width grid grid-cols-1 gap-5 md:grid-cols-3 lg:grid-cols-5'>
+    <footer className='bg-slate-900 py-10 lg:py-20 px-20 md:px-0 '>
+        <div className='max-width grid grid-cols-1 gap-5 md:grid-cols-3 lg:grid-cols-5 '>
             <article>
                 <img src={Logo} alt='logo' />
             </article>
