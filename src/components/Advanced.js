@@ -5,7 +5,7 @@ import fully from '../images/icon-fully-customizable.svg'
 const Advanced = () => {
   return (
     <>
-    <div className='bg-slate-100 py-10 lg:py-20 lg:pb-40 lg:pt-20'>
+    <div className='bg-slate-100 pt-32 pb-10 lg:py-20 lg:pb-40'>
         <div className='max-width'>
             <h2 className='text-center font-bold text-xl md:text-3xl text-slate-800'>Advanced Statistics</h2>
             <p className='text-center text-sm leading-6 text-slate-400 mt-3'>Track how your links are performing across the web with our <br/>advanced statistics dashboard.</p>
